@@ -3,7 +3,7 @@ var canvas = document.getElementById('canv'),
     img = document.getElementById('image');
 
 
-document.getElementById('input').addEventListener('keyup', function (){
+document.getElementById('text').addEventListener('keyup', function (){
 		var text = this.value.split("\n").join("\n");
     var x = 12.5;
 		var y = 15;

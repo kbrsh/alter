@@ -28,6 +28,9 @@ textarea:focus {
 button {
   border-radius: 0;
   margin-left: 0;
+  background: #FAFAFA;
+  border: 3px solid #131313;
+  color: #131313;
 }
 
 canvas {

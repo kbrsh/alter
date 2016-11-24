@@ -2,6 +2,12 @@ var canvas = document.getElementById('canv'),
 		ctx = canvas.getContext('2d'),
     img = document.getElementById('image');
 
+
+function grow(el) {
+	el.style.height = "auto";
+	el.style.height = (element.scrollHeight)+"px";
+}
+
 var generate = function() {
 	var text = document.getElementById('text').value.split("\n").join("\n");
 	var x = 12.5;

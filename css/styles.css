@@ -33,6 +33,12 @@ button {
   color: #131313;
 }
 
+button:hover {
+  opacity: 1;
+  background: #131313;
+  color: #FAFAFA;
+}
+
 canvas {
   display: none;
 }

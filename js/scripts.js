@@ -24,6 +24,7 @@ var generate = function() {
 	img.src = ctx.canvas.toDataURL();
 }
 document.getElementById('submit').addEventListener('click', function (){
+	document.getElementsByClassName("modal")[0].style.display = 'flex';
 	generate();
 });
 

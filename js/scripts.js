@@ -9,8 +9,7 @@ document.getElementById('text').addEventListener('keyup', function (){
 		var y = 15;
 		var lineheight = 30;
 		var lines = text.split('\n');
-    var lineLengthOrder = lines.slice(0);
-    lineLengthOrder.sort(function(a, b) {
+    var lineLengthOrder = lines.slice(0).sort(function(a, b) {
     	return b.length - a.length;
     });
     ctx.canvas.width = ctx.measureText(lineLengthOrder[0]).width + 25;

@@ -1,5 +1,5 @@
 body {
-  background-color: #BBBBBB;
+  background-color: #FAFAFA;
   color: #232323;
 }
 
@@ -13,13 +13,13 @@ body {
 
 textarea {
   font-family: "Anonymous Pro";
-  background: #BBBBBB;
+  font-size: 2rem;
+  background: #FAFAFA;
   border: 3px solid #232323;
   border-radius: 0;
 }
 
 textarea:focus {
-  background: #BBBBBB;
   border: 3px solid #232323;
   border-radius: 0;
 }

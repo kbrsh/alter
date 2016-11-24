@@ -4,7 +4,7 @@ var canvas = document.getElementById('canv'),
 
 
 document.getElementById('submit').addEventListener('click', function (){
-		var text = this.value.split("\n").join("\n");
+		var text = document.getElementById('text').value.split("\n").join("\n");
     var x = 12.5;
 		var y = 15;
 		var lineheight = 30;

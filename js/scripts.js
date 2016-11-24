@@ -24,5 +24,7 @@ var generate = function() {
 	img.src = ctx.canvas.toDataURL();
 }
 document.getElementById('submit').addEventListener('click', function (){
-	
+	generate();
 });
+
+generate();

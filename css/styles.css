@@ -25,6 +25,11 @@ textarea:focus {
   border-radius: 0;
 }
 
+button {
+  border-radius: 0;
+  margin-left: 0;
+}
+
 canvas {
   display: none;
 }

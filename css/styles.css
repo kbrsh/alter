@@ -11,6 +11,10 @@ body {
   width: 100%;
 }
 
+textarea {
+  background: #BBBBBB;
+}
+
 canvas {
   display: none;
 }

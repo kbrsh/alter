@@ -3,7 +3,7 @@ var canvas = document.getElementById('canv'),
     img = document.getElementById('image');
 
 
-document.getElementById('text').addEventListener('keyup', function (){
+document.getElementById('submit').addEventListener('click', function (){
 		var text = this.value.split("\n").join("\n");
     var x = 12.5;
 		var y = 15;
@@ -23,4 +23,4 @@ document.getElementById('text').addEventListener('keyup', function (){
 		for (var i = 0; i<lines.length; i++)
     	ctx.fillText(lines[i], x, y + (i*lineheight) );
     img.src = ctx.canvas.toDataURL();
-}, false);
+});

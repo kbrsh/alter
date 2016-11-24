@@ -11,6 +11,14 @@ body {
   width: 100%;
 }
 
+.container {
+  width: auto;
+}
+
+.small {
+  min-width: 500px;
+}
+
 textarea {
   font-family: "Anonymous Pro";
   font-size: 2rem;

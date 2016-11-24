@@ -13,6 +13,8 @@ body {
 
 textarea {
   background: #BBBBBB;
+  border: 3px solid #232323;
+  border-radius: 0;
 }
 
 canvas {

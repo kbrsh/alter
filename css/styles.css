@@ -26,6 +26,8 @@ textarea {
   color: #232323;
   border: 3px solid #232323;
   border-radius: 0;
+  resize: none;
+  overflow: hidden;
 }
 
 textarea:focus {

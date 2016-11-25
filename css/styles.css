@@ -58,5 +58,6 @@ canvas {
 
 
 img {
+  display: none;
   margin: 5rem;
 }

@@ -29,7 +29,7 @@ var generate = function() {
 	img.src = ctx.canvas.toDataURL();
 }
 document.getElementById('submit').addEventListener('click', function (){
-	document.getElementById("img").style.display = 'block';
+	document.getElementById("image").style.display = 'block';
 	generate();
 });
 

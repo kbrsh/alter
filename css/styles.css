@@ -81,10 +81,13 @@ footer {
 #footer-name, #footer-madeby {
 	margin-bottom: 0;
 	margin-top: 0;
+  margin-left: 1rem;
+  font-family: "Open Sans";
+  font-weight: 300;
 }
 
 #footer-name {
-	font-family: "Gilroy-Bold";
+  font-weight: 700;
 }
 
 #footer-desc {

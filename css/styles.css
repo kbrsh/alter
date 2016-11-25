@@ -28,6 +28,8 @@ textarea {
   border-radius: 0;
   resize: none;
   overflow: hidden;
+  min-height: 10rem;
+  transition: height 0.1s ease;
 }
 
 textarea:focus {

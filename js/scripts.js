@@ -3,7 +3,7 @@ var canvas = document.getElementById('canv'),
     img = document.getElementById('image');
 
 function grow(el) {
-	el.style.height = "5px";
+	el.style.height = "10rem";
 	el.style.height = (el.scrollHeight)+"px";
 }
 

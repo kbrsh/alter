@@ -2,10 +2,9 @@ var canvas = document.getElementById('canv'),
 		ctx = canvas.getContext('2d'),
     img = document.getElementById('image');
 
-
 function grow(el) {
-	el.style.height = "auto";
-	el.style.height = (element.scrollHeight)+"px";
+	el.style.height = "5px";
+	el.style.height = (el.scrollHeight)+"px";
 }
 
 var generate = function() {

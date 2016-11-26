@@ -16,11 +16,7 @@ body {
 }
 
 .small {
-  min-width: 500px;
-}
-
-@media screen and (max-width: 400px) {
-
+  min-width: 200px;
 }
 
 textarea {

@@ -19,6 +19,10 @@ body {
   min-width: 500px;
 }
 
+@media screen and (max-width: 400px) {
+
+}
+
 textarea {
   font-family: "Anonymous Pro";
   font-size: 2rem;
